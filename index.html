@@ -7,11 +7,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>mushy character</title>
   <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
 </head>
 
 <body>
   <!-- Keep this div with the class card! -->
-  <div class="card">
+  <div class="card" id="card">
     <!-- Write your markup in here! Feel free to delete the title and the text! -->
     <h1>The Mushy</h1>
 
@@ -21,22 +22,24 @@
   </div>
   <img src="./images/mushycharacter.jpg" alt="mushie character" height="330px" width="267px" class="image">
   <p>Illustration by Lea Bischoff</p>
+  <button id="factsButton">show facts</button>
+  <button id="battleButton">show battle information</button>
 <table>
   <tr>
-    <td class="title">Habitat</td>
-    <td class="description">Big forests</td>
+    <td class="title" data-js="head1">Habitat</td>
+    <td class="description" data-js="description1">Big forests</td>
   </tr>
   <tr>
-    <td class="title">Nutrition</td>
-    <td class="description">Berries and nuts</td>
+    <td class="title" data-js="head2">Nutrition</td>
+    <td class="description" data-js="description2">Berries and nuts</td>
   </tr>
   <tr>
-    <td class="title">Size</td>
-    <td class="description">20cm</td>
+    <td class="title" data-js="head3">Size</td>
+    <td class="description" data-js="description3">20cm</td>
   </tr>
   <tr>
-    <td class="title">Speciality</td>
-    <td class="description">Being super cute</td>
+    <td class="title" data-js="head4">Tame with</td>
+    <td class="description" data-js="description4">headrubs</td>
   </tr>
 </table>
 </div>
